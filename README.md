@@ -11,6 +11,7 @@ Software engineer and AI researcher specialising in **federated learning**, **di
 
 | Year | Title | Venue |
 |---|---|---|
+| 2026 | uAMBIT: Byte-Budgeted Update Compression with Error-Feedback for Federated Learning *(accepted)* | IEEE DCOSS-IoT 2026 |
 | 2024 | [AMBIT: Efficient Pruning Technique for Edge Computing](https://ieeexplore.ieee.org/document/10707219) | IEEE Int. Conf. on Fog and Edge Computing |
 | 2023 | [Adaptive Mean Absolute Deviation Pruning in Federated Learning](https://www.duo.uio.no/bitstream/handle/10852/108659/Master_thesis-20-11-.pdf?sequence=11) | Master's Thesis, University of Oslo |
 
@@ -31,18 +32,15 @@ A series of reproducible experiments on communication-efficient federated learni
 
 All experiments: 3 clients · FedAvg · 100 rounds · TensorFlow 2.18 · ~0.3–0.5 KB/client/round
 
-### UAMBIT: Hard-Cap Federated Compression for Edge ML
+### uAMBIT: Byte-Budgeted Update Compression with Error-Feedback for Federated Learning
 
-[GitHub](https://github.com/emadhammami/uambit-hard-cap-fl) · [Run on Colab](https://colab.research.google.com/github/emadhammami/uambit-hard-cap-fl/blob/main/notebooks/uambit_budget_cap.ipynb)
+**Accepted — IEEE DCOSS-IoT 2026** · [GitHub](https://github.com/emadhammami/uambit-hard-cap-fl) · [Run on Colab](https://colab.research.google.com/github/emadhammami/uambit-hard-cap-fl/blob/main/notebooks/uambit_budget_cap.ipynb)
 
 Enforces a strict **0.5 KiB/client/round** uplink hard cap with competitive accuracy vs. Top-k, STC, QSGD, and EF-Sign baselines. Benchmarked on BreastMNIST with threshold-based sparse compression, scale sharing, and error-feedback. Includes both a single-notebook experiment and a modular `src/` package.
 
 ---
 
 ## Other Projects
-
-**[Femi — Women's Safety Platform](https://emadhammami.site/nettside/home.html)**  
-Founded and directed Femi, a platform for women's safety and community engagement. Led a remote development team from concept to deployment with a focus on user-friendly design and security.
 
 **DNB Digital Transformation Research** · University of Oslo  
 In-depth research on DNB Bank's digital transformation, focusing on emerging technologies and organisational restructuring.
@@ -59,9 +57,6 @@ Authored a practical Scrum handbook outlining best practices for engineering tea
 
 **Software Engineer / Scrum Master** · DNB Bank, Oslo *(2021 – present)*  
 Agile transformation, sprint facilitation, QA with Octane, incident management in ServiceNow.
-
-**Founder & Director** · Femi, Oslo *(2021 – 2023)*  
-Platform for women's safety; led remote team, coordinated with Norwegian government authorities.
 
 **Scrum Master** · Telia, Oslo *(2020 – 2021)*  
 Agile team facilitation, backlog management, development contributions with Laravel & Onfido.
