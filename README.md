@@ -12,7 +12,7 @@ Software engineer and AI researcher specialising in **federated learning**, **di
 | Year | Title | Venue |
 |---|---|---|
 | 2026 | uAMBIT: Byte-Budgeted Update Compression with Error-Feedback for Federated Learning *(accepted)* | IEEE DCOSS-IoT 2026 |
-| 2024 | [AMBIT: Efficient Pruning Technique for Edge Computing](https://ieeexplore.ieee.org/document/10707219) | IEEE Int. Conf. on Fog and Edge Computing |
+| 2024 | [AMBIT: Efficient Pruning Technique for Edge Computing](https://ieeexplore.ieee.org/document/10707219) | IEEE Int. Conf. on Fog and Edge Computing (ICFEC) |
 | 2023 | [Adaptive Mean Absolute Deviation Pruning in Federated Learning](https://www.duo.uio.no/bitstream/handle/10852/108659/Master_thesis-20-11-.pdf?sequence=11) | Master's Thesis, University of Oslo |
 
 ---
