@@ -11,7 +11,8 @@ Software engineer and AI researcher specialising in **federated learning**, **di
 
 | Year | Title | Venue |
 |---|---|---|
-| 2026 | uAMBIT: Byte-Budgeted Update Compression with Error-Feedback for Federated Learning *(accepted)* | IEEE DCOSS-IoT 2026 |
+| 2026 | [uAMBIT: Byte-Budgeted Update Compression with Error-Feedback for Federated Learning](https://doi.org/10.1109/DCOSS-IoT69657.2026.00020) *(published)* | IEEE DCOSS-IoT 2026 |
+| 2026 | R3Tune: Stage-Aware Token Budgeting for Multi-Stage LLM Workflows *(accepted full paper, oral presentation)* | IEEE FLLM 2026 · [Code](https://github.com/emadhammami/stage-aware-llm-resource-allocation) |
 | 2024 | [AMBIT: Efficient Pruning Technique for Edge Computing](https://ieeexplore.ieee.org/document/10707219) | IEEE Int. Conf. on Fog and Edge Computing (ICFEC) |
 | 2023 | [Adaptive Mean Absolute Deviation Pruning in Federated Learning](https://www.duo.uio.no/bitstream/handle/10852/108659/Master_thesis-20-11-.pdf?sequence=11) | Master's Thesis, University of Oslo |
 
@@ -34,7 +35,7 @@ All experiments: 3 clients · FedAvg · 100 rounds · TensorFlow 2.18 · ~0.3–
 
 ### uAMBIT: Byte-Budgeted Update Compression with Error-Feedback for Federated Learning
 
-**Accepted — IEEE DCOSS-IoT 2026** · [GitHub](https://github.com/emadhammami/uambit-hard-cap-fl) · [Run on Colab](https://colab.research.google.com/github/emadhammami/uambit-hard-cap-fl/blob/main/notebooks/uambit_budget_cap.ipynb)
+**Published — IEEE DCOSS-IoT 2026** · [BreastMNIST Code & Demo](https://github.com/emadhammami/uambit-hard-cap-fl) · [Run on Colab](https://colab.research.google.com/github/emadhammami/uambit-hard-cap-fl/blob/main/notebooks/uambit_budget_cap.ipynb)
 
 Enforces a strict **0.5 KiB/client/round** uplink hard cap with competitive accuracy vs. Top-k, STC, QSGD, and EF-Sign baselines. Benchmarked on BreastMNIST with threshold-based sparse compression, scale sharing, and error-feedback. Includes both a single-notebook experiment and a modular `src/` package.
 
